@@ -1,0 +1,64 @@
+name: ​Myths and Facts Data on Child Development 
+description: The data is about the facts and myths related to child development. It comprises information from social media, such as blogs. It includes mainly the text data. However, we cleaned and processed it into qualitive and quantitative data.
+contributors:
+- name: ​Mehedi Tajrian
+- name: Azizur Rahman
+- name: Ashad Kabir
+- name: Rafiqul Islam​ 
+data:
+- name: ​Myths and Facts Data on Child Development 
+  description: This file contains statements labeled as 'fact' or 'myth' along with their corresponding features.
+  path: https://github.com/CSCRC-SCREED/CSU-Myths-and-Facts
+  format: csv
+  size: 267KB
+  fields:
+  - name: Statement
+    description: The text of the statement that is analyzed.
+  - name: Label
+    description: The label indicating whether the statement is a 'fact' or 'myth'.
+  - name: word_count
+    description: The total number of words in the statement.
+  - name: avg_word_length
+    description: The average length of words in the statement.
+  - name: sentence_count
+    description: The number of sentences in the statement.
+  - name: stop_words_count
+    description: The number of stop words in the statement.
+  - name: noun_count
+    description: The count of nouns in the statement.
+  - name: verb_count
+    description: The count of verbs in the statement.
+  - name: adjective_count
+    description: The count of adjectives in the statement.
+  - name: adverb_count
+    description: The count of adverbs in the statement.
+  - name: pronoun_count
+    description: The count of pronouns in the statement.
+  - name: noun_verb_ratio
+    description: The ratio of nouns to verbs in the statement.
+  - name: adj_adv_ratio
+    description: The ratio of adjectives to adverbs in the statement.
+  - name: sentiment_polarity
+    description: The sentiment polarity score of the statement.
+  - name: sentiment_subjectivity
+    description: The sentiment subjectivity score of the statement.
+  - name: word2vec_average
+    description: The average Word2Vec vector for the words in the statement.
+  - name: unique_word_count
+    description: The number of unique words in the statement.
+  - name: lexical_diversity
+    description: The ratio of unique words to total words in the statement.
+  - name: punctuation_count
+    description: The number of punctuation marks in the statement.
+  - name: uppercase_word_count
+    description: The number of words in uppercase in the statement.
+  - name: avg_sentence_length
+    description: The average length of sentences in characters.
+  - name: exclamation_mark_count
+    description: The number of exclamation marks in the statement.
+license:
+- name: Open
+  link: N/A
+references:
+- name: N/A
+  link: N/A
